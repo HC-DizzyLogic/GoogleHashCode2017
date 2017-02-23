@@ -9,9 +9,13 @@
 
 using namespace std;
 
+struct video_dc {
+	int id;
+	int size;
+};
+
 struct data_center {
-	vector<int> video_id;
-	vector<int> video_size;
+	vector<video_dc> videos;
 };
 
 struct video {
