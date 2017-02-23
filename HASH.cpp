@@ -45,6 +45,8 @@ void leeFichero(string name, data_center & center, vector<Cache> & caches, vecto
 			cout<< endl;
 		}
 	}
+ void brute_lattency_force ()
+{
     //This function will provide the brute lattency of each video
     vector<int> nodo = {1,2,3};
     int no_times = 1500;
@@ -62,3 +64,4 @@ void leeFichero(string name, data_center & center, vector<Cache> & caches, vecto
             {
                 cout << brute_lattency[i] << endl;
             }
+}
